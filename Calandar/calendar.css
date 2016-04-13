@@ -1,0 +1,74 @@
+ul {list-style-type: none;}
+
+
+body{
+	background: #66ff99;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+	
+	
+}
+
+
+
+
+
+.month {
+    
+}
+
+.month ul{
+	font-family: Lucida Console;
+    margin: 50px;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+	
+
+.weekdays{
+	margin: 0;
+    padding: 10px 0;
+    background-color:#dab3ff;
+	border: medium solid 1px;
+	
+	
+}
+
+.weekdays li{
+	display: inline-block;
+    width: 13.6%;
+    color: #6600cc;
+    text-align: center;
+	font-family: bold;	
+	font-size: 20px;
+}
+
+
+
+.days {
+    padding: 20px 20px;
+    background: #f3e6ff;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color:#777;
+}
+
+.days li:hover {
+    background-color: yellow;
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="majasd.css"/>
+		<title>Majas Darbs</title>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	</head>
+<body>
+	<div class="nav1">
+		<ul>
+			<li><a href="Sakums.html">Sakums</a></li>
+			<li><a href="Receptes.html">Receptes</a></li>
+			<li><a href="Galerija.html">Galerija</a></li>
+			<li><a href="Kontakti.html">Kontakti</a></li>
+			<li><a href="ParMums.html">ParMums</a></li>
+		</ul>
+	</div>
+	<div class="bigbox">	
+		<div class="banner">
+			<img src="bildes/Banner.jpg" width="1000px" height="300px" alt="Banner"/>
+		</div>
+		<div class="contain">
+		
+			<div class="adrese">
+			
+			<div id="googleMap" style="width:500px;height:380px;"></div>
+		
+				<p>Adrese: - <br/>
+					Kontakt-tālrunis: - <br/>
+					e-mails: -  <br/>
+					Mājas Lapas Nosaukums - </p>
+					
+			
+			
+			</div>
+		
+			<div class="footer-nav">
+				<div class="fnav">
+					<ul>
+						<li><a href="Sakums.html">Sakums</a></li>
+						<li><a href="Kontakti.html">Kontakti</a></li>
+						<li><a href="ParMums.html">ParMums</a></li>
+					</ul>
+				</div>
+				<div class="copyright">	
+					<p>Copyright &copy 2016 Chilis</p>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</div>
+</body>
+</html>

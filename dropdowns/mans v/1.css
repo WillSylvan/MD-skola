@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+	
+	
+}
+
+body{
+	background-color: #003300;
+	
+	
+	
+}
+
+
+h1{
+	text-align: center;
+	
+	
+	
+}
+
+#navigation ul li{
+	width: 125px;
+	text-align: center;	
+	position: relative;
+	float: left;
+	
+	
+	
+	
+}
