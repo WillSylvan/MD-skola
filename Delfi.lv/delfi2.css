@@ -1,0 +1,483 @@
+body {
+    background-image: url("image/Banner.jpg");
+    background-color: #cccccc;
+
+}
+
+a{
+	text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+    font-size: 12px;
+    color: black;
+
+}
+
+p{
+	text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+    font-size: 12px;
+
+}
+
+figcaption{
+	 font-size: 23px;
+	 font-weight: bold;
+	 font-family: 'Fjalla One', sans-serif;
+
+}
+
+img{
+
+}
+
+.container{
+	width: 1028px;
+	background-color: white;
+	height: 5000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+
+}
+
+.topnavheader{
+	width: 1000px;
+	height: 125px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.logo{
+	float: left;
+
+}
+
+/*--------TOP NAV LEFT-------------*/
+.topnavleft{
+	width: 350px;
+	height: 100px;
+	float: left;
+	margin-top: 14px;
+
+}
+
+.topnavleft ul a:after{
+	content:"|"; 
+	padding-left: 5px;
+
+}
+
+.topnavleft ul {
+	padding: 0px;
+	color: #222;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.temp{
+	float: right;
+
+}
+
+.temp h1{
+	font-size: 20px;
+
+}
+
+#header-weather{
+	width: 40px;
+
+}
+
+
+.dropbtn {
+	width: 2px;
+	height: 2px;
+	border-style: solid;
+	border-width: 2px 5px 0 2px;
+	border-color: #bdbdbd transparent transparent transparent;
+	float: right;
+
+}
+
+.dropbtn .wrapper:active .content {
+    height: 123px;
+    z-index: 3;
+    -webkit-transition-delay: 0s;
+ }
+     
+.dropbtn .content:hover {
+    height: 123px;
+    z-index: 3;
+    -webkit-transition-delay: 0s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*------------end--------------*/
+.weatherlogo{
+	float: left;
+	margin-top: 48px;
+
+}
+/*-------TOP NAV RIGHT------------*/
+
+.topnavright{
+	width: 350px;
+	height: 100px;
+	float: right;
+	margin-right:14px;
+	margin-top: 14px;
+	color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.topnavright ul {
+	padding: 0px;
+
+}
+
+.topnavright ul a:after{
+	content:"|"; 
+	padding-left: 5px;
+
+}
+
+.icon{
+	margin-bottom: -30px;
+
+}
+
+.input{
+	float: right;
+	clear: both;
+	background-color: yellow;
+
+}
+
+.input input{
+	background-color: yellow;
+
+}
+
+.searchIcon{
+		background-image: url("paper.gif");
+
+	
+}
+
+/*---------end------------*/
+
+/*-------- augša beidzas-----------*/
+
+.baner {
+	padding-top: 15px;
+	width: auto;
+	height: 200px;
+	padding-right: 0px;
+	margin-top: 0px;
+
+}
+
+.baner img {
+	margin-left: 10px;
+	margin-right: 0px;
+
+}
+
+/*------navigacija----------*/
+
+.bottomnav{
+	margin-top: 14px;
+	margin-left: 14px;
+	padding-bottom: 7px;
+
+}
+
+.bottomnav a{
+	color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+
+}
+
+.bottomnav a:hover {
+    text-decoration: underline;
+
+}
+
+.bottomnav a:after{
+	content:"|"; 
+	padding-left: 1px;
+
+}
+
+/*linija*/
+
+.line{
+	margin-right: 2px;
+	border-top: 1px solid #e6e6e6;
+
+}
+
+.line1{
+	padding-top: 25px;
+	margin-right: 2px;
+	border-top: 1px solid #999;
+
+}
+
+/*-------otra aušējā nav---------*/
+
+.topnav{
+	margin-left: -27px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 1px;
+   	width: auto;
+
+}
+
+.topnav ul a{
+	color: #0066cc;
+	font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+	font-family: "Roboto",Arial,sans-serif;
+
+}
+
+.topnav ul a:after{
+	content:"|"; 
+	padding-left: 5px;
+
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+
+}
+
+/*-----------Sākas puses-----------*/
+
+.side{
+	width: auto;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
+
+}
+
+.left-side{
+	width: 750px;
+	height: auto;
+	min-height: 300px;
+	float: left;
+
+}
+
+
+.clearer {
+	clear: both;
+
+}
+
+/*LEFT SIDE INFORMATION*/
+
+.inline2{
+
+}
+
+.inline2 figure{
+	width: 355px;
+	height: 200px;
+	margin: 50px 0px 0px 14px;
+	float: left;
+
+}
+
+.tabula{
+	width: 340px;
+	height: 300px;
+	background: green;
+	float: right;
+	
+}
+
+.dl {
+	width: 200px;
+	height: 50px;
+	
+}
+
+
+.tb{
+	width: 200px;
+	height: 30px;
+	padding-top: 20px;
+	padding-right: 140px;
+	margin-top: 20px;
+	background: #0066ff;
+
+}
+
+.tb h1{
+	color: white;
+	font-family: ;
+
+}
+
+.tabulas dl dt{
+	margin: 0px;
+	display: inline;
+
+}
+
+.tabula dd{
+	font-family: "Roboto",Arial,sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	font-size: 12px;
+	
+}
+
+.tab.kaste{
+	padding-left: 40px;
+	width: 300px;
+	
+}
+
+/*--------RIGHT SIDE INFORMATION------------*/
+.right-side{
+	width: 250px;
+	min-height: 300px;
+	height: auto;
+	float: right;
+	border-left: 1px solid #999;
+	padding-left: 13px;
+
+}
+
+/*-------baner------------*/
+
+.baner{
+	margin-top: 50px;
+
+}
+
+.info{
+	padding-left: 0px;
+
+}
+
+.info figure{
+	width: 358px;
+	height: auto;
+	padding-left: 0px;
+	margin: 0px;
+	margin-left: 14px;
+	float:left;
+
+}
+
+.inline3{
+
+}
+
+.inline3 figure{
+	float: left;
+    height: auto;
+    margin: 20px 0px 0px 20px;
+    padding: 0;
+    width: 230px;
+
+}
+
+.inline3 img{
+
+}
+
+
+.boxfooter{
+	width: 1000px;
+	height: 200px;
+	border: 1px solid #999;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.boxfooter :last-child {
+    	border: 1px solid #999;
+
+}
+
+.box1 {
+	width: 243px;
+	height: 200px;
+	border: 1px solid #999;
+	float: left;
+	padding-left: 5px;
+
+}
+
+.box1 ul {
+	margin-left: 5px;
+
+}
+
+.footer{
+	width: 1028px;
+	height: 50px;
+	margin-top: 10px;
+	background-color: #d9d9d9;
+
+}
+
+.f1{
+	float: left;
+	margin-left: 10px;
+
+}
+
+.f2{
+	float: right;
+	margin-right: 10px;
+
+}
